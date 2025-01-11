@@ -5,7 +5,7 @@ import BlogTableItem from "@/components/admingComponents/BlockTableItem";
 import axios from "axios";
 import { toast } from "react-toastify";
 
-function page() {
+function Page() {
   const [blogs, setBlogs] = useState([]);
 
   const fetchBlogs = async () => {
@@ -67,4 +67,4 @@ function page() {
   );
 }
 
-export default page;
+export default Page;

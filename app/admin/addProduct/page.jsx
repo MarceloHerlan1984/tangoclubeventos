@@ -5,7 +5,7 @@ import React, { useState } from "react";
 import axios from "axios";
 import { toast } from "react-toastify";
 
-function page() {
+function Page() {
   const [image, setImage] = useState(false);
   const [data, setData] = useState({
     title: "",
@@ -143,4 +143,4 @@ function page() {
   );
 }
 
-export default page;
+export default Page;

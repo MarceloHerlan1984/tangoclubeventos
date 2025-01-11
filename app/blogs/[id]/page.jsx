@@ -7,7 +7,7 @@ import { useParams } from "next/navigation";
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 
-function page() {
+function Page() {
   const params = useParams();
   const [data, setData] = useState(null);
 
@@ -98,4 +98,4 @@ function page() {
   );
 }
 
-export default page;
+export default Page;
